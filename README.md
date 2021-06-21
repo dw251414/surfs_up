@@ -1,17 +1,20 @@
 # surfs_up
+--- 
 
 ## Overview Analysis
 
-The purpose of our analysis is to see temperature statistics for June and December to see if running a surf shop is sustainable year around. The way we get the temperature data is by running two seperate queries, one being for June and the other being December. Once we run our queries we store the temperatures in a list then convert them to a dataframe. Once our dataframe is created we are able to get our summary statistics by using the .describe() method. Here is what we found:
+   The purpose of our analysis is to see temperature statistics for June and December to see if running a surf shop is sustainable year around. 
+      The way we get the temperature data is by running two seperate queries, one being for June and the other being December. 
+      Once we run our queries we store the temperatures in a list then convert them to a dataframe. 
+             Once our dataframe is created we are able to get our summary statistics by using the .describe() method. Here is what we found:
 
 ## Comparison Analysis:
 
 Based on a comparison of precipitation and temperature between June and December from 2010 to 2017 across all observation stations, it’s possible to notice the following statistical information:
 
-  - Over 7 years, there are 1574 precipitations occurred and 1700 temperatures observed in June, higher than 1405 precipitations and 1517 temperatures observed in December. The different (1700-1517 = 183) between two observations counts that indicate the data of Dec, 2017 not included in database.
-  - Comparing of precipitation, the mean (0.217) and median (0.03) of December are higher than June’s mean (0.136) and median (0.02), respectively.
-  - For precipitation derivative indicators, December also had higher Standard Deviations and Maximum precipitation. In December, standard deviation (0.541) is higher than June’s standard deviation (0.336). The minimum of both December and June are zero, and December maximum (6.42) is higher than June (4.43).
-  - Comparing of temperatures, it apparently shows that June’s temperature indicators are higher than December.
+  - In June we had a total count of 1700, mean of 74.9, min of 64.0 and max of 85.0
+  - In December we had a total count of 1517, mean of 71.0, min of 56.0 and max of 83.0
+  - Standard deviation is 3.25 in June and 3.75 -- making a .5 difference in the two different seasons
 
 ## Analysis Limitation Recommendation:
 
@@ -19,3 +22,8 @@ Based on a comparison of precipitation and temperature between June and December
   - In addition of statistical summery, various features and plots may help us better analyze the seasonal weather. For example, line plots would be able to provide quick and easy way to show time-varying. Histogram plots would tell us frequency of precipitation as well as temperature for both December and Jane.
   - For seasonal analysis, we need filter more detail precipitation and temperatures for Spring and Autumn.
 
+--- 
+
+## Summary
+
+From our data we can tell what our temperatures are but since there are other attributes to the weather such as precipitation it shows that we can run additional queries to let us know whether or not people can come and visit the shop. If we are able to gain more data for the area we can run even more queries! From there we can decide how we would like to build the shop and what areas would make this a more prominent location for visitors to come.
